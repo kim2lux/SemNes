@@ -18,18 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="display.cpp">
+    <ClCompile Include="display_header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="init.cpp">
+    <ClCompile Include="init_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cpu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="opcode.h">
@@ -38,7 +44,16 @@
     <ClInclude Include="display.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="init.hh">
+    <ClInclude Include="header.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emulator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,10 @@
 #include "main.h"
-#include "init.hh"
+#include "emulator.hh"
 
 int main(int ac, char **av)
 {
-	snes::init snes("C:\\emusnes\\emu_snes\\Debug\\dbz.smc");
+#ifdef _DEBUG
+	printf("%s\n", av[1]);
+#endif
+	snes::Emu e(av[1]);
 }

@@ -7,7 +7,7 @@
 #include <string>
 #include <cerrno>
 #include <iostream>
-#include "opcode.h"
+#include "header.hh"
 
 void display_binary_value(char *v);
 void display_header(s_header *gameHead);
