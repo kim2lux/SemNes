@@ -10,6 +10,6 @@
 #include "header.hh"
 
 void display_binary_value(char *v);
-void display_header(s_header *gameHead);
+void display_header(s_header *gameHead, char lrom);
 
 #endif 
